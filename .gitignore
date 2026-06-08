@@ -26,6 +26,9 @@ owsm_ctc_v4_1B/
 data/
 data1/
 
+# Course documents generated locally
+docs/
+
 # Training checkpoints: keep small metadata, ignore large weights/states
 checkpoints/*.pt
 !checkpoints/.gitkeep
