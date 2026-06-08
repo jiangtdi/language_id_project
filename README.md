@@ -121,8 +121,6 @@ language_id_project/
 ├── make_data1_subset.py              # 生成云服务器训练子集脚本
 ├── requirements.txt                  # Python 依赖
 ├── README.md                         # 项目说明
-├── docs/                             # 课程报告文档
-├── output/                           # 最终课程汇报 PPT
 └── outputs/                          # 评估报告和图表输出
 ```
 
@@ -295,25 +293,3 @@ python backend/main.py
 ```text
 http://127.0.0.1:8000
 ```
-
-## 15. 课程材料
-
-最终课程汇报 PPT：
-
-```text
-output/多语种语种识别系统_课程汇报.pptx
-```
-
-课程项目报告：
-
-```text
-docs/《语音识别》课程综合项目设计报告_姜硕阳_最终扩充版.docx
-```
-
-## 16. 注意事项
-
-- GitHub 普通仓库不适合直接上传 4GB checkpoint 和 OWSM 模型目录。
-- 若要共享完整可运行版本，可使用网盘、Release、Git LFS 或学校平台提交大文件。
-- 如果只上传代码仓库，应保留源码、README、requirements、PPT 和报告，并在 README 中说明模型和数据下载方式。
-- 本项目结果仅对应当前五个语种和当前测试集设置，不应表述为对所有真实语音场景都保证相同准确率。
-
