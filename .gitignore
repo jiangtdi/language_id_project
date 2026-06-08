@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+
+# Large local models and datasets
+owsm_ctc_v4_1B/
+data/
+data1/
+
+# Training checkpoints: keep small metadata, ignore large weights/states
+checkpoints/*.pt
+!checkpoints/.gitkeep
+!checkpoints/label_map.json
+
+# Large/evolving evaluation artifacts
+outputs/*.csv
+outputs/*.tmp
+outputs/*.pt
+outputs/*.pth
+outputs/*.log
+outputs/.eval_results/
+
+# Temporary office files
+~$*.docx
+~$*.doc
+~$*.pptx
+
+# Raw generated slide/image/video intermediates
+ppt/
+*.mp4
+ChatGPT Image*.png
+
+# Course presentation file
+output/多语种语种识别系统_课程汇报.pptx

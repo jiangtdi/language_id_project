@@ -1,0 +1,13 @@
+Test Accuracy: 1.0000
+
+              precision    recall  f1-score   support
+
+     Chinese     1.0000    1.0000    1.0000       150
+     English     1.0000    1.0000    1.0000       150
+      French     1.0000    1.0000    1.0000       150
+    Japanese     1.0000    1.0000    1.0000       150
+      Korean     1.0000    1.0000    1.0000       150
+
+    accuracy                         1.0000       750
+   macro avg     1.0000    1.0000    1.0000       750
+weighted avg     1.0000    1.0000    1.0000       750
